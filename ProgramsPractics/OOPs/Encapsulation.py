@@ -7,6 +7,17 @@ class BankAccount:
     def get_interest_rate(self, rate):
         return self.__interest_rate
 
+class HDFC(BankAccount):
+    def __init__(self, balance):
+        self.balance = balance
+        super(self.balance)
+    def AC_balance():
+        print(get_balance())
+    def Interest_Rate():
+        print(get_interest_rate())
+
+hdfc = HDFC()
+hdfc.AC_balance()
 
 
 # Method Overriding
